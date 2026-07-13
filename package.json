@@ -1,0 +1,28 @@
+{
+  "name": "food-delivery-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:bdd": "cucumber-js",
+    "test:bdd:report": "cucumber-js --format progress --format html:cucumber-report.html",
+    "test:playwright": "npx playwright test",
+    "test": "cucumber-js",
+    "test:focus": "cucumber-js --tags '@focus'",
+    "test:login": "cucumber-js --tags '@login'",
+    "test:reg": "cucumber-js --tags '@reg'"
+    
+   
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@faker-js/faker": "^10.5.0",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
