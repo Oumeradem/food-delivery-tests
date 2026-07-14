@@ -20,4 +20,13 @@ pipeline {
             }
         }
     }
+    post {
+        always {
+            // Generate Cucumber HTML report after every run
+            cucumber buildStatus: 'UNSTABLE',
+                     reportTitle: 'Tomato App E2E Test Report',
+                     fileIncludePattern: '**/cucumber-report.json',
+                     trendsLimit: 10
+        }
+    }
 }
