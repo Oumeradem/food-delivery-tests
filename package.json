@@ -10,7 +10,7 @@
     "test": "cucumber-js",
     "test:focus": "cucumber-js --tags '@focus'",
     "test:login": "cucumber-js --tags '@login'",
-    "test:reg": "cucumber-js --tags '@reg'"
+    "test:reg": "cucumber-js --tags '@reg' --format json:cucumber-report.json"
     
    
   },
