@@ -1,0 +1,401 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-account-registration-and-login;register-a-new-user-and-then-log-back-in",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Register a new user and then log back in",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 854239708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user navigates to the Tomato App homepage",
+            "match": {
+              "location": "steps/registrationSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24043780666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user clicks the \"Sign In\" button in the top header",
+            "match": {
+              "location": "steps/registrationSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1093327417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user switches to the sign-up form modal view",
+            "match": {
+              "location": "steps/registrationSteps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1025652625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user enters a random name using faker",
+            "match": {
+              "location": "steps/registrationSteps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2136737208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user enters a random registration email address using faker",
+            "match": {
+              "location": "steps/registrationSteps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2667245624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user enters a random registration password using faker",
+            "match": {
+              "location": "steps/registrationSteps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2415486083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user confirms the registration agreement checkbox",
+            "match": {
+              "location": "steps/registrationSteps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1032495000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the user clicks the \"Create account\" button to submit",
+            "match": {
+              "location": "steps/registrationSteps.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1056003166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "the user clicks the profile icon",
+            "match": {
+              "location": "steps/registrationSteps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1029081541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user clicks the \"Logout\" button",
+            "match": {
+              "location": "steps/registrationSteps.ts:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1096634582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user clicks the \"Sign In\" button in the top header",
+            "match": {
+              "location": "steps/registrationSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1031224291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the user enters their registered email",
+            "match": {
+              "location": "steps/registrationSteps.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2668290207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the user enters their registered password",
+            "match": {
+              "location": "steps/registrationSteps.ts:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2393981916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "user confirms agreement to terms checkbox",
+            "match": {
+              "location": "steps/registrationSteps.ts:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1024317875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "user clicks login submission button",
+            "match": {
+              "location": "steps/registrationSteps.ts:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1025919499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the login process should be completed",
+            "match": {
+              "location": "steps/registrationSteps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19216832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "the user selects a \"Top Dish\" from the menu",
+            "match": {
+              "location": "steps/registrationSteps.ts:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8518459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the user adds the dish to the cart",
+            "match": {
+              "location": "steps/registrationSteps.ts:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1044714082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the user clicks the cart icon",
+            "match": {
+              "location": "steps/registrationSteps.ts:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1116072542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "the user clicks the \"Proceed to checkout\" button",
+            "match": {
+              "location": "steps/registrationSteps.ts:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1083183415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the checkout page should be loaded",
+            "match": {
+              "location": "steps/registrationSteps.ts:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12408083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "the user fills out the delivery information form",
+            "match": {
+              "location": "steps/registrationSteps.ts:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21177143000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "the user clicks the \"PROCEED TO PAYMENT\" button",
+            "match": {
+              "location": "steps/registrationSteps.ts:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1032041874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "the user should be redirected to Stripe checkout",
+            "match": {
+              "location": "steps/registrationSteps.ts:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 371378624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "the user fills out the Stripe payment form",
+            "match": {
+              "location": "steps/registrationSteps.ts:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21524882291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "the user clicks the Stripe pay button",
+            "match": {
+              "location": "steps/registrationSteps.ts:255"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1074513999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "the order should be confirmed",
+            "match": {
+              "location": "steps/registrationSteps.ts:264"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4106809041
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 72994999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-account-registration-and-login",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "User Account Registration and Login",
+    "tags": [
+      {
+        "name": "@reg",
+        "line": 1
+      }
+    ],
+    "uri": "features/registration.feature"
+  }
+]
