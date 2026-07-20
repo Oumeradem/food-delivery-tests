@@ -1,5 +1,4 @@
 # 🍅 Tomato Food Delivery — E2E Test Automation Framework
-
 > Production-grade BDD automation framework validating the complete user journey of a full-stack MERN food delivery app — from registration through Stripe payment confirmation.
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
@@ -11,7 +10,6 @@
 ---
 
 ## 🔗 Links
-
 | | |
 |---|---|
 | 🌐 Live App | https://tomato-food-delivery-zeta.vercel.app |
@@ -21,32 +19,25 @@
 ---
 
 ## ✅ 29 Steps — 1 Scenario — Full User Journey
-
 Registration → Login → Add to Cart → Checkout → Stripe Payment → Order Confirmed
 
 **29/29 steps passing in ~1m 17s**
 
 ---
 
-
 ## 🎬 Demo Video
 [▶️ Watch Full E2E Test Run (Playwright + Cucumber)](https://youtu.be/S0vs8daK1rw)
 
-## ✅ 29 Steps — 1 Scenario — Full User Journey
-Registration → Login → Add to Cart → Checkout → Stripe Payment → Order Confirmed
-
-**29/29 steps passing in ~1m 17s**
+---
 
 ## 📸 Test Results
 
 ### ✅ All 29 Steps Passing
 ![29 Steps Passing](./screenshots/29-passed.png)
 
-
-
+---
 
 ## 🎯 What This Framework Demonstrates
-
 - **BDD Methodology** — Human-readable Gherkin scenarios bridging business requirements and automated tests
 - **Page Object Model** — Scalable architecture separating locators from test logic
 - **Real-world Payment Testing** — Automated Stripe checkout including iframe handling
@@ -69,17 +60,18 @@ Registration → Login → Add to Cart → Checkout → Stripe Payment → Order
 ---
 
 ## 🏗️ Architecture
+
 food-delivery-tests/
-├── features/          # Gherkin BDD scenarios
-├── hooks/             # Browser lifecycle setup
-├── pages/             # Page Object Model locators
-├── steps/             # Step definitions
-└── cucumber.js        # Framework configuration
+├── features/    # Gherkin BDD scenarios
+├── hooks/       # Browser lifecycle setup
+├── pages/       # Page Object Model locators
+├── steps/       # Step definitions
+└── cucumber.js  # Framework configuration
+
 
 ---
 
 ## 🚀 Quick Start
-
 ```bash
 git clone https://github.com/Oumeradem/food-delivery-tests.git
 cd food-delivery-tests
