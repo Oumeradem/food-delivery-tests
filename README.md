@@ -28,6 +28,23 @@ Registration → Login → Add to Cart → Checkout → Stripe Payment → Order
 
 ---
 
+
+## 🎬 Demo Video
+[▶️ Watch Full E2E Test Run (Playwright + Cucumber)](https://youtu.be/S0vs8daK1rw)
+
+## ✅ 29 Steps — 1 Scenario — Full User Journey
+Registration → Login → Add to Cart → Checkout → Stripe Payment → Order Confirmed
+
+**29/29 steps passing in ~1m 17s**
+
+## 📸 Test Results
+
+### ✅ All 29 Steps Passing
+![29 Steps Passing](./screenshots/29-passed.png)
+
+
+
+
 ## 🎯 What This Framework Demonstrates
 
 - **BDD Methodology** — Human-readable Gherkin scenarios bridging business requirements and automated tests
