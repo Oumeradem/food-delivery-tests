@@ -33,7 +33,9 @@ Registration → Login → Add to Cart → Checkout → Stripe Payment → Order
 ## 📸 Test Results
 
 ### ✅ All 29 Steps Passing
-[![29 Steps Passing](./screenshots/29-passed.png)](./screenshots/29-passed.png)
+[![Test Result 1](./screenshots/test-results-1.png)](./screenshots/test-results-1.png)
+[![Test Result 2](./screenshots/test-results-2.png)](./screenshots/test-results-2.png)
+[![Test Result 3](./screenshots/test-results-3.png)](./screenshots/test-results-3.png)
 
 ---
 
