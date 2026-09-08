@@ -4,6 +4,14 @@ import { expect } from '@playwright/test';
 import { faker } from '@faker-js/faker';
 import { RegistrationPage } from '../pages/RegistrationPage';
 
+import { SignInModal } from '../pages/SignInModal';
+import { Before } from '@cucumber/cucumber';
+
+
+Before(async function () {
+  this.signInModal = new SignInModal(this.page);
+});
+
 // -------------------------------------------------------------------------
 // INITIALIZATION
 // -------------------------------------------------------------------------
