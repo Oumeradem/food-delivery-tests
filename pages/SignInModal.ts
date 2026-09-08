@@ -8,7 +8,7 @@ export class SignInModal {
 
   constructor(page: Page) {
     this.page = page;
-    this.modalTitle = page.locator('text=Login');
+    this.modalTitle = page.getByRole('heading', { name: 'Login' });
     this.emailInput = page.locator('input[type="email"]');
     this.passwordInput = page.locator('input[type="password"]');
   }
