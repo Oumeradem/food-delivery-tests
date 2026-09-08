@@ -4,19 +4,6 @@ import { expect } from '@playwright/test';
 import { faker } from '@faker-js/faker';
 import { RegistrationPage } from '../pages/RegistrationPage';
 
-import { SignInModal } from '../pages/SignInModal';
-import { Before } from '@cucumber/cucumber';
-
-
-Before(async function () {
-  this.signInModal = new SignInModal(this.page);
-});
-
-// -------------------------------------------------------------------------
-// INITIALIZATION
-// -------------------------------------------------------------------------
-
-
 // -------------------------------------------------------------------------
 // SCENARIO 1: HOMEPAGE ELEMENTS
 // -------------------------------------------------------------------------
@@ -29,7 +16,7 @@ Then('the main hero banner heading should read {string}', async function (expect
 });
 
 // -------------------------------------------------------------------------
-// SCENARIO 2: FILTER & DISHES (Matches your @focus scenarios)
+// SCENARIO 2: FILTER & DISHES
 // -------------------------------------------------------------------------
 Given('the user is looking at the {string} section', async function (sectionName: string) {
   await this.foodMenuPage.exploreMenuHeader.waitFor({ state: 'visible' });
@@ -60,15 +47,12 @@ Then('the support email should display {string}', async function (email) {
 });
 
 // -------------------------------------------------------------------------
-// AUTHENTICATION MODAL (Your previous work)
+// AUTHENTICATION MODAL
 // -------------------------------------------------------------------------
 Then('a login popup form with the title {string} should appear', async function (title) {
   await this.signInModal.verifyModalVisible(title);
 });
 
-// ... (Add your other registration/login steps here if needed)
-
-// Add these to the bottom of your file
 When('the user enters random email address using faker', async function () {
   this.savedEmail = faker.internet.email();
   await this.signInModal.emailInput.fill(this.savedEmail);
@@ -78,5 +62,3 @@ When('the user enters random password using faker', async function () {
   this.savedPassword = `SecurePass!123`;
   await this.signInModal.passwordInput.fill(this.savedPassword);
 });
-
-
